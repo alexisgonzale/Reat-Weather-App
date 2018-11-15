@@ -36,10 +36,10 @@
   padding: 10px;
   overflow: auto;
 }
+
 @media(max-width: 48em) {
   .datail {
     height: 40vh;
   }
 
 }
-

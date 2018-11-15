@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "convert-units": "^2.3.4",
+    "lodash.topairs": "^4.3.0",
     "material-ui": "^0.20.2",
     "moment": "^2.22.2",
     "prop-types": "^15.6.2",
@@ -11,8 +12,11 @@
     "react-dom": "^16.6.0",
     "react-flexbox-grid": "^2.1.2",
     "react-materialize": "^2.4.8",
+    "react-redux": "^5.1.1",
     "react-scripts": "2.1.0",
-    "react-weathericons": "^1.0.4"
+    "react-weathericons": "^1.0.4",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,5 +32,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "redux-devtools": "^3.4.1"
+  }
 }
